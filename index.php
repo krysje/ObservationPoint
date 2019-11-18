@@ -208,7 +208,7 @@
                         <img src="images/writer.jpg" class="image image-full">
 
                         <div class="img-title">
-                            <h3>Technical Content Writer</h3>
+                            <h3>Developer</h3>
                         </div>
 
                         <p>
@@ -217,10 +217,6 @@
                             on Practice Portal will be preferred.
                         </p>
 
-                        <a href="about-us.php"
-                            target="_blank" class="button">
-                            Learn More
-                        </a>
                     </div>
 
                     <!-- Column 2 -->
@@ -229,7 +225,7 @@
                         <img src="images/developer.jpg" class="image image-full">
 
                         <div class="img-title">
-                            <h3>Software Developer</h3><br>
+                            <h3>Developer</h3>
                         </div>
 
                         <p>
@@ -238,10 +234,10 @@
                             are active on Practice Portal will be
                             preferred.
                         </p>
-
+                        <br>
                         <a href="about-us.php"
-                            target="_blank" class="button">
-                            Learn More
+                            target="_blank" class="bigButton">
+                            About Us
                         </a>
                     </div>
 
@@ -251,7 +247,7 @@
                         <img src="images/support.jpg" class="image image-full">
 
                         <div class="img-title">
-                            <h3>Teaching Assistant</h3><br>
+                            <h3>Developer</h3>
                         </div>
 
                         <p>
@@ -261,10 +257,6 @@
                             and Algorithms.
                         </p>
 
-                        <a href="about-us.php"
-                            target="_blank" class="button">
-                            Learn More
-                        </a>
                     </div>
                 </div>
             </section>

@@ -10,7 +10,7 @@
 ?>
 <div style="text-align: center">
     <img id="userDp" src=<?php echo "./uploads/".$_SESSION['userImg']; ?> >
-    <h1><?php echo strtoupper($_SESSION['userUid']); ?></h1>
+    <h1 style="font-family:"ariel, sans-serif"><?php echo strtoupper($_SESSION['userUid']); ?></h1>
     <hr> 
 </div>
 
@@ -98,11 +98,11 @@
             <label for="headline"><b>Headline</b></label>
             <input type="text" placeholder="Enter Your Profile Headline" name="headline" value='<?php echo $_SESSION['headline']; ?>'>
 
-            <label for="bio"><b>Bio</b></label>
-            <textarea placeholder="What you want to tell people about yourself" name="bio"><?php echo $_SESSION['bio']; ?></textarea>
+            <label for="bio"><b>Bio</b></label><br>
+            <textarea rows="4" cols="80" style="font-size: 18px; padding: 7px" placeholder="What you want to tell people about yourself" name="bio"><?php echo $_SESSION['bio']; ?></textarea><br><br>
 
             <label for="dp"><b>Profile Picture</b></label>
-            <input class="button" type="file" name="dp">
+            <input class="button" type="file" name="dp"><br><br>
 
 
             <button type="submit" name="update-profile" value="Update Profile">Update Profile</button>

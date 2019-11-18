@@ -35,7 +35,8 @@
 
                <div class="content">
                     
-                    <div id ="img1" class="col-md-5"><img class="img-circle" src="uploads/jb.jpg" alt="our team" height="50%%" width="50%"></div>
+                    <div id ="img1" class="col-md-5"><img class="img-circle" src="uploads/jb.jpg" alt="our team" height="50%%" width="50%">
+                    </div>
                     <div class="text1">
                     <div class="name" col-md-6">Aman Bansiwal</div> <br>
                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
