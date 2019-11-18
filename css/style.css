@@ -1,0 +1,580 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+
+p {
+    line-height: 180%;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1500px;
+}
+
+/* div img{
+  width: 100%;
+  height: 300px;
+
+} */
+
+
+/*************************/
+/* Styling Header */
+/*************************/
+header{
+
+    overflow: hidden;
+}
+
+#top-header{
+
+    text-align: center;
+    height: 60px;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+#menu{
+    height: 100%;
+    margin: none;
+    overflow: hidden;
+}
+
+#menu ul{
+    text-align: left;
+    margin: none;
+    background: #8104cf;
+}
+
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+#menu li a{
+    color: #FFF;
+}
+
+#menu li:hover a, #menu li span{
+    background: #FFF;
+    color: #4CAF50;
+    border-left: 1px solid #8104cf;
+    border-right: 1px solid #8104cf;
+    text-decoration: none;
+}
+.rightalign{
+    float: right;
+}
+
+
+
+/**********************************/
+/*       Styling Sign Up  */
+/**********************************/
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #8104cf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+/**********************************/
+/*       Styling Login  */
+/**********************************/
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #8104cf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+/**********************************/
+/*       Styling Profile  */
+/**********************************/
+#userDp {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+/**********************************/
+/* Styling Main content Section 1 */
+/**********************************/
+#welcome
+{    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#welcome .title{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#welcome p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/**********************************/
+/* Styling Main content Section 2 */
+/**********************************/
+
+#section-2{
+    overflow: hidden;
+    margin-top: 5em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.row #column1,
+.row #column2,
+.row #column3{
+        float: left;
+        width: 320px;
+        padding: 80px 40px 80px 40px;
+}
+
+.column-title h2{
+    margin: 1em 0em;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #8104cf;
+    color: white;
+    border: 2px solid #8104cf;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+
+/*****************************************/
+/*     Styling Main Content Section 3    */
+/*****************************************/
+
+#section-3{
+    overflow: hidden;
+    padding-top: 5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.image
+{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+
+.img-title{
+    display: block;
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Add fixed width for each column and
+   align text to center */
+#column21,
+#column22,
+#column23,
+#column24
+{
+    width: 282px;
+    text-align: center;
+}
+
+#column21,
+#column22,
+#column23
+{
+    float: left;
+    margin-right: 24px;
+}
+
+#column24
+{
+    float: right;
+}
+
+
+
+
+/**********************************/
+/*    Styling WebPages for study  */
+/**********************************/
+
+
+#lt-pt{
+  float: left;
+  background: orange;
+				width: 400px;
+				height: 1200px;
+        margin: 10px;
+        border: 1px solid black;
+}
+
+.side-menu{
+  padding-right: 10px;
+  margin: 10px 0;
+ }
+ 
+
+.lmhid{
+  padding: 20px;
+  text-align: left;
+  font-weight: bold;
+  background: rgb(59, 70, 173);
+  color: white;
+}
+
+.lmhid a{
+  color: white;
+}
+
+.lmhid a:hover{
+  color: pink;
+}
+
+
+.lmbid{
+  padding-left: 20px ;
+}
+
+#rt-pt{
+  float: left;
+  background:rgb(235, 225, 225);
+			width: 1300px;
+				height: auto;
+        margin: 10px;   
+        border: 1px solid black; 
+			
+}
+#title1{
+  text-align: center;
+  padding: 20px;
+}
+#ul1{
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+
+.ul1{
+  list-style-type:circle;
+  padding-left: 70px;
+}
+
+.h4c{
+  padding: 20px;
+}
+
+.p4c{
+  padding: 30px;
+
+}
+/**********************************/
+/*       Styling Footer  */
+/**********************************/
+
+/*** Adding Styles to Company Details ***/
+.company-details{
+    overflow: hidden;
+    padding: 1em 0em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+    clear: both;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3,
+#footer #col4{
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+}
+
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 0.90em;
+}
+
+/*** Adding Styles to Copyright Div ***/
+.copyright
+{
+    overflow: hidden;
+    padding: 1em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #8104cf;
+}
+
+.copyright p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgb(255, 255, 255);
+}
+
+.copyright a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Styling Social Icons */
+ul.contact{
+    margin: 0;
+    padding: 1em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li a{
+    color: #000000;
+    display: inline-block;
+    background: #E3F0F7;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/***  Styling About US ***/
+
+div h1{
+  text-align: center;
+  margin: 100px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #61260f;
+}
+
+.text1{
+  padding: 40px;
+  margin: 100px;
+  text-align: left;
+  /* background: #63d2e6; */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(166, 71, 255));
+  
+  
+}
+
+#img1{
+  float: left;
+  margin-left: 100px;
+  padding: 0;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.name{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
